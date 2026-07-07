@@ -1,6 +1,7 @@
 "use client";
 
 import * as React from "react";
+// use React namespace types to avoid named-type import issues
 import * as RechartsPrimitive from "recharts";
 
 import { cn } from "./utils";

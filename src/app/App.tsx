@@ -51,13 +51,13 @@ function LoadingScreen({ onDone }: { onDone: () => void }) {
       >
         <img
           src={logoImg}
-          alt="Harir Tea"
+          alt="Hareer Tea"
           className="w-20 h-20 object-contain rounded-full"
         />
         <div
           style={{
             fontFamily: "'Noto Kufi Arabic', serif",
-            color: GOLD,
+            color: "#D8B15C",
             fontSize: "2.5rem",
             letterSpacing: "0.05em",
           }}
@@ -116,7 +116,7 @@ function Navbar({
       ? [
           { label: "قصتنا", href: "#story" },
           { label: "المجموعة", href: "#products" },
-          { label: "طقوس التحضير", href: "#ritual" },
+          { label: "طرائق التحضير  ", href: "#ritual" },
           { label: "فلسفتنا", href: "#philosophy" },
         ]
       : [
@@ -147,13 +147,13 @@ function Navbar({
         <a href="#" className="flex items-center gap-3 group">
           <img
             src={logoImg}
-            alt="Harir Tea"
+            alt="Hareer Tea"
             className="w-9 h-9 object-contain rounded-full transition-transform duration-300 group-hover:scale-105"
           />
           <span
             style={{
               fontFamily: "'Noto Kufi Arabic', serif",
-              color: GOLD,
+              color: "#7e0909",
               fontSize: "1.2rem",
               fontWeight: 600,
             }}
@@ -295,7 +295,7 @@ function Navbar({
 }
 
 // ─── Hero Section ─────────────────────────────────────────────────────────
-
+import hareerbg from "../imports/hareerbg.png";
 function HeroSection({ lang }: { lang: Lang }) {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -303,17 +303,16 @@ function HeroSection({ lang }: { lang: Lang }) {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1531969179221-3946e6b5a5e7?w=1920&h=1080&fit=crop&auto=format')",
-          backgroundColor: "#0E0E0E",
+          // backgroundImage: `url(${hareerbg})`,
+          backgroundColor: "#fffcf1",
         }}
       />
       {/* Layered overlays for cinematic depth */}
       <div
         className="absolute inset-0"
         style={{
-          background:
-            "linear-gradient(180deg, rgba(14,14,14,0.75) 0%, rgba(14,14,14,0.5) 50%, rgba(14,14,14,0.92) 100%)",
+          // background:
+          //   "linear-gradient(180deg, rgba(14,14,14,0.75) 0%, rgba(14,14,14,0.5) 50%, rgba(14,14,14,0.92) 100%)",
         }}
       />
       {/* Subtle wine red vignette */}
@@ -357,7 +356,7 @@ function HeroSection({ lang }: { lang: Lang }) {
           transition={{ delay: 0.2, duration: 0.8 }}
           style={{
             fontFamily: "'Inter', sans-serif",
-            color: GOLD,
+            color: "#750505",
             fontSize: "0.65rem",
             letterSpacing: "0.55em",
             textTransform: "uppercase",
@@ -374,7 +373,7 @@ function HeroSection({ lang }: { lang: Lang }) {
           transition={{ delay: 0.4, duration: 1.1, ease: [0.22, 1, 0.36, 1] }}
           style={{
             fontFamily: "'Noto Kufi Arabic', serif",
-            color: "#FFFFFF",
+            color: "#750505",
             fontSize: "clamp(6rem, 18vw, 14rem)",
             lineHeight: 1.05,
             fontWeight: 700,
@@ -391,14 +390,14 @@ function HeroSection({ lang }: { lang: Lang }) {
           transition={{ delay: 0.7, duration: 0.9 }}
           style={{
             fontFamily: "'Playfair Display', serif",
-            color: "#FFFFFF",
+            color: "#70505",
             fontSize: "clamp(0.9rem, 2vw, 1.2rem)",
             letterSpacing: "0.45em",
             textTransform: "uppercase",
             marginBottom: "2.5rem",
           }}
         >
-          Harir Tea
+          Hareer Tea
         </motion.div>
 
         <motion.p
@@ -411,7 +410,7 @@ function HeroSection({ lang }: { lang: Lang }) {
                 ? "'Noto Kufi Arabic', serif"
                 : "'Playfair Display', serif",
             fontStyle: lang === "ar" ? "normal" : "italic",
-            color: "rgba(255,255,255,0.55)",
+            color: "#750505",
             fontSize: "clamp(1rem, 2vw, 1.25rem)",
             lineHeight: 1.7,
             maxWidth: "36rem",
@@ -455,7 +454,7 @@ function HeroSection({ lang }: { lang: Lang }) {
             className="px-9 py-3.5 text-xs tracking-widest uppercase transition-all duration-400"
             style={{
               fontFamily: "'Inter', sans-serif",
-              color: GOLD,
+              color: "#750505",
               background: "transparent",
               border: `1px solid rgba(248,211,118,0.35)`,
               letterSpacing: "0.18em",
@@ -466,9 +465,9 @@ function HeroSection({ lang }: { lang: Lang }) {
                 "rgba(248,211,118,0.05)";
             }}
             onMouseLeave={(e) => {
-              (e.currentTarget as HTMLElement).style.borderColor =
-                "rgba(248,211,118,0.35)";
+              (e.currentTarget as HTMLElement).style.borderColor = "#7A1612";
               (e.currentTarget as HTMLElement).style.background = "transparent";
+              (e.currentTarget as HTMLElement).style.color = "#7A1612";
             }}
           >
             {lang === "ar" ? "المجموعة" : "Discover Collection"}
@@ -623,7 +622,7 @@ function BrandStorySection({ lang }: { lang: Lang }) {
               ) : (
                 <>
                   <p>
-                    In a world where luxury is crafted from details, Harir Tea
+                    In a world where luxury is crafted from details, Hareer Tea
                     came to be more than just tea — an experience that touches
                     the senses and gives each moment its true value.
                   </p>
@@ -654,14 +653,14 @@ function BrandStorySection({ lang }: { lang: Lang }) {
                       ? "'Noto Kufi Arabic', serif"
                       : "'Playfair Display', serif",
                   fontStyle: lang === "ar" ? "normal" : "italic",
-                  color: GOLD,
+                  color: "#750505",
                   fontSize: "1.1rem",
                   lineHeight: 1.6,
                 }}
               >
                 {lang === "ar"
                   ? "شاي حرير… حيث تلتقي الأصالة بالفخامة."
-                  : "Harir Tea… where authenticity meets luxury."}
+                  : "Hareer Tea… where authenticity meets luxury."}
               </p>
             </div>
           </motion.div>
@@ -688,7 +687,7 @@ function BrandStorySection({ lang }: { lang: Lang }) {
             >
               <ImageWithFallback
                 src={productBox}
-                alt="Harir Tea Ceylon Black Tea luxury gift box"
+                alt="Hareer Tea Ceylon Black Tea luxury gift box"
                 className="w-full object-contain"
                 style={{ height: "520px" }}
               />
@@ -958,7 +957,7 @@ function ProductsSection({ lang }: { lang: Lang }) {
           <span
             style={{
               fontFamily: "'Inter', sans-serif",
-              color: GOLD,
+              color: "#750505",
               fontSize: "0.65rem",
               letterSpacing: "0.5em",
               textTransform: "uppercase",
@@ -1101,7 +1100,7 @@ function BrewingRitualSection({ lang }: { lang: Lang }) {
               fontWeight: lang === "ar" ? 700 : 400,
             }}
           >
-            {lang === "ar" ? "طقوس التحضير" : "The Art of Brewing"}
+            {lang === "ar" ? "طرائق التحضير" : "The Art of Brewing"}
           </h2>
           <div
             className="mx-auto mt-5"
@@ -1315,7 +1314,7 @@ function Footer({ lang }: { lang: Lang }) {
   const footerLinks = [
     { ar: "قصتنا", en: "Our Story", href: "#story" },
     { ar: "المجموعة", en: "Collection", href: "#products" },
-    { ar: "طقوس التحضير", en: "Brewing Ritual", href: "#ritual" },
+    { ar: "طرائق التحضير", en: "Brewing Ritual", href: "#ritual" },
     { ar: "فلسفتنا", en: "Philosophy", href: "#philosophy" },
   ];
 
@@ -1334,7 +1333,7 @@ function Footer({ lang }: { lang: Lang }) {
             <div className="flex items-center gap-3 mb-5">
               <img
                 src={logoImg}
-                alt="Harir Tea"
+                alt="Hareer Tea"
                 className="w-10 h-10 object-contain rounded-full"
               />
               <div>
@@ -1358,7 +1357,7 @@ function Footer({ lang }: { lang: Lang }) {
                     opacity: 0.6,
                   }}
                 >
-                  Harir Tea
+                  Hareer Tea
                 </div>
               </div>
             </div>
@@ -1475,7 +1474,7 @@ function Footer({ lang }: { lang: Lang }) {
               opacity: 0.4,
             }}
           >
-            © 2025 Harir Tea.{" "}
+            © 2025 Hareer Tea.{" "}
             {lang === "ar" ? "جميع الحقوق محفوظة لدى قسم إن." : "All rights reserved."}
           </div>
           <div
@@ -1498,7 +1497,7 @@ function Footer({ lang }: { lang: Lang }) {
 // ─── App ──────────────────────────────────────────────────────────────────
 
 export default function App() {
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false)
   const [loading, setLoading] = useState(true);
   const [lang, setLang] = useState<Lang>("ar");
 
