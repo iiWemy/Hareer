@@ -1012,29 +1012,29 @@ function ProductsSection({ lang }: { lang: Lang }) {
 const ritualSteps = [
   {
     num: "01",
-    titleAr: "اختيار الأوراق",
-    titleEn: "Leaf Selection",
+    titleAr: " درجة حرارة الماء  ",
+    titleEn: "WATER TEMPERATURE",
     descAr:
-      "نختار أجود أوراق الشاي بعناية لتعكس نقاء الطعم وعمق النكهة.",
+      "اغلي ماء نقي بدرجة حرارة , 95-100",
     descEn:
-      "We carefully select the finest tea leaves to reflect purity of taste and depth of flavour.",
+      "Boil fresh water to 95–100°C",
     detail: "95–100°C",
   },
   {
     num: "02",
-    titleAr: "نقاء الماء",
-    titleEn: "Pure Water",
-    descAr: "حرارة دقيقة تُحضّر رحلة النكهة القادمة.",
-    descEn: "Precise temperature prepares the journey of flavour that awaits.",
+    titleAr: "اضف ملعقة شاي حرير لكل كوب",
+    titleEn: "TEA PER CUP",
+    descAr: "2.5 جرام (1 ملعقة شاي) لكل 250 مل",
+    descEn: "Add 2.5 g (1 teaspoon) of Harir Tea for every 250 ml of water.",
     detail: "250ml / cup",
   },
   {
     num: "03",
-    titleAr: "لحظة الانسجام",
-    titleEn: "The Harmony Moment",
+    titleAr: "اترك الشاي لينقع",
+    titleEn: "LET IT STEEP",
     descAr:
-      "تلتقي الأوراق بالماء وتبدأ الفخامة بالظهور تدريجيًا.",
-    descEn: "Leaves meet water, and luxury slowly reveals itself.",
+      "اسكب واستمتع بكوب شاي حرير",
+    descEn: "Let the tea steep for 3–5 minutes, then sit back and enjoy your cup of Harir Tea.",
     detail: "3–5 min",
   },
   {
@@ -1100,7 +1100,7 @@ function BrewingRitualSection({ lang }: { lang: Lang }) {
               fontWeight: lang === "ar" ? 700 : 400,
             }}
           >
-            {lang === "ar" ? "طرائق التحضير" : "The Art of Brewing"}
+            {lang === "ar" ? "طريقة تحضير الشاي الأصلية " : "The Art of Brewing"}
           </h2>
           <div
             className="mx-auto mt-5"
