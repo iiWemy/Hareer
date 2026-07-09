@@ -181,3 +181,11 @@
     line-height: 1.5;
   }
 }
+
+:root {
+  --gold-text: #7A1612;
+}
+
+html.dark {
+  --gold-text: #D8B15C;
+}

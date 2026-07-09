@@ -1,7 +1,7 @@
 
-  # Luxury Tea Brand Website
+  # شاي حرير
 
-  This is a code bundle for Luxury Tea Brand Website. The original project is available at https://www.figma.com/design/xjo7XsNUKHs1j0Peb4tI6A/Luxury-Tea-Brand-Website.
+  This is a code bundle for شاي حرير . The original project is available at https://www.figma.com/design/xjo7XsNUKHs1j0Peb4tI6A/Luxury-Tea-Brand-Website.
 
   ## Running the code
 
