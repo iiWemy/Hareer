@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "motion/react";
-import logoImg from "@/imports/.temp-14-14-1-image_upscayl_4x_upscayl-standard-4x.png";
+import logoImg from "@/imports/hareer-logo.png";
 import { GOLD } from "../constants/theme";
 
 interface LoadingScreenProps {

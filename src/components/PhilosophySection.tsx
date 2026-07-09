@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 
-import branchImg from "@/imports/.temp-14-34-31-image_upscayl_7x_upscayl-standard-4x.png";
+import branchImg from "@/imports/hareer-tea-branch.png";
 
 import { useInView } from "../hooks/useInView";
 import type { Lang } from "../types";

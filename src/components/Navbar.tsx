@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { Globe, Menu, Moon, Sun, X } from "lucide-react";
 
-import logoImg from "@/imports/.temp-14-14-1-image_upscayl_4x_upscayl-standard-4x.png";
+import logoImg from "@/imports/hareer-logo.png";
 import type { Lang } from "../types";
 import { GOLD } from "../constants/theme";
 

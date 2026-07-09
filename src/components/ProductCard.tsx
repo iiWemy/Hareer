@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { motion } from "motion/react";
-import { ImageWithFallback } from "@/app/components/figma/ImageWithFallback";
+import { ImageWithFallback } from "@/app/components/ui/ImageWithFallback";
 
-import productBag from "@/imports/WhatsApp_Image_2026-06-30_at_14.03.43.png";
-import productBox from "@/imports/WhatsApp_Image_2026-06-30_at_12.45.44.png";
+import productBag from "@/imports/hareer-product-bag.png";
+import productBox from "@/imports/hareer-product-box.png";
 
 import type { Lang, Product } from "../types";
 import { GOLD, GOLD_TEXT } from "../constants/theme";

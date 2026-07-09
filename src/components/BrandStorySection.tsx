@@ -4,10 +4,10 @@
 declare module "react/jsx-runtime";
 
 import { motion } from "motion/react";
-import { ImageWithFallback } from "../app/components/figma/ImageWithFallback";
+import { ImageWithFallback } from "../app/components/ui/ImageWithFallback";
 
-import branchImg from "../imports/.temp-14-34-31-image_upscayl_7x_upscayl-standard-4x.png";
-import productBox from "../imports/WhatsApp_Image_2026-06-30_at_12.45.44.png";
+import branchImg from "../imports/hareer-tea-branch.png";
+import productBox from "../imports/hareer-product-box.png";
 
 import { useInView } from "../hooks/useInView";
 import type { Lang } from "../types";

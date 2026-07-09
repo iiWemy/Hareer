@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 
-import branchImg from "@/imports/.temp-14-34-31-image_upscayl_7x_upscayl-standard-4x.png";
+import branchImg from "@/imports/hareer-tea-branch.png";
 
 import { ritualSteps } from "../data/ritualSteps";
 import { useInView } from "../hooks/useInView";

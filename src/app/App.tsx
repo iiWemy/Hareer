@@ -57,7 +57,7 @@ export default function App() {
 
           <HeroSection lang={lang} />
           <GoldDivider withBranch />
-          <BrandStorySection lang={lang} isDark={isDark} />
+          <BrandStorySection lang={lang} isDark={isDark} /> 
           <GoldDivider />
           <ProductsSection lang={lang} />
           <GoldDivider withBranch />

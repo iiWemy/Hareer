@@ -1,11 +1,19 @@
+# Hareer Tea Website
 
-  # شاي حرير
+A premium bilingual website for Hareer Tea, built with React, Vite, and Tailwind CSS.
 
-  This is a code bundle for شاي حرير . The original project is available at https://www.figma.com/design/xjo7XsNUKHs1j0Peb4tI6A/Luxury-Tea-Brand-Website.
+## Features
 
-  ## Running the code
+- Arabic and English language support
+- Dark and light mode
+- Premium brand story section
+- Product showcase
+- Brewing ritual section
+- Responsive design for desktop and mobile
 
-  Run `npm i` to install the dependencies.
+## Tech Stack
 
-  Run `npm run dev` to start the development server.
-  
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
