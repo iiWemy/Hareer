@@ -15,9 +15,13 @@ import { GOLD_TEXT } from "../constants/theme";
 
 interface BrandStorySectionProps {
   lang: Lang;
+  isDark: boolean;
 }
 
-export default function BrandStorySection({ lang }: BrandStorySectionProps) {
+export default function BrandStorySection({
+  lang,
+  isDark,
+}: BrandStorySectionProps) {
   const { ref, inView } = useInView<HTMLElement>(0.12);
 
   return (
@@ -63,13 +67,12 @@ export default function BrandStorySection({ lang }: BrandStorySectionProps) {
             dir={lang === "ar" ? "rtl" : "ltr"}
           >
             <h2
-              className="mb-8 leading-snug"
+              className="mb-8 leading-snug text-[#741518] dark:text-white"
               style={{
                 fontFamily:
                   lang === "ar"
                     ? "'Noto Kufi Arabic', serif"
                     : "'Playfair Display', serif",
-                color: "var(--foreground)",
                 fontSize: "clamp(1.6rem, 3vw, 2.6rem)",
                 fontWeight: lang === "ar" ? 600 : 400,
                 lineHeight: 1.35,
@@ -81,13 +84,12 @@ export default function BrandStorySection({ lang }: BrandStorySectionProps) {
             </h2>
 
             <div
-              className="space-y-5"
-              style={{
+              className="space-y-5 text-black dark:text-white"
+               style={{
                 fontFamily:
                   lang === "ar"
-                    ? "'Noto Kufi Arabic', serif"
-                    : "'Inter', sans-serif",
-                color: "var(--muted-foreground)",
+                   ? "'Noto Kufi Arabic', serif"
+                   : "'Inter', sans-serif",
                 fontSize: "0.975rem",
                 lineHeight: "1.9",
               }}

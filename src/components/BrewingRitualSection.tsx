@@ -96,7 +96,7 @@ export default function BrewingRitualSection({
               fontWeight: lang === "ar" ? 700 : 400,
             }}
           >
-            {lang === "ar" ? "طريقتان لتحضير الشاي" : "Two Ways to Brew"}
+            {lang === "ar" ? "طرائق تحضير شاي حرير" : "The Art of Brewing Hareer Tea"}
           </h2>
 
           <div
